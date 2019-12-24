@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:paddingTop="10dp"
+        android:text="분 리 수 거"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="재 활 용 품"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+
+                <Button
+                    android:id="@+id/bt_paper"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="종이"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt_glass"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="유리병" />
+
+                <Button
+                    android:id="@+id/bt_metal"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="금속캔" />
+
+                <Button
+                    android:id="@+id/bt_plastic"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="플라스틱" />
+
+                <Button
+                    android:id="@+id/bt_styrofoam"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="스티로폼" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/bt_electric"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="전지류" />
+
+                <Button
+                    android:id="@+id/bt_tire"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="타이어"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt_oil"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="윤활유" />
+
+
+
+                <Button
+                    android:id="@+id/bt_lamp"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="형광등" />
+                <Button
+                    android:id="@+id/bt_iron"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="고철류" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/bt_clothes"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="의류" />
+
+
+                <Button
+                    android:id="@+id/bt_other"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="기타" />
+
+                <Button
+                    android:id="@+id/bt_other2"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bt_other3"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bt_other4"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:text="" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/re_text"
+            android:textSize="25dp"
+            android:textColor="@color/green"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/re_text2"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:paddingTop="10dp"
+        android:text="폐 기 물"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종 류"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:textSize="25dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow>
+
+
+            <Button
+                android:id="@+id/bt_electron"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="폐가전제품"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_food"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="음식물류폐기물"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_ha_waste"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textStyle="bold"
+                android:text="유해폐기물" />
+
+            <Button
+                android:id="@+id/bt_no_waste"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textStyle="bold"
+                android:text="불연성폐기물" />
+
+        </TableRow>
+       </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/re_text3"
+            android:textSize="25dp"
+            android:textColor="@color/green"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            />
+
+        <ImageView
+            android:id="@+id/re_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/re_text4"
+            android:textSize="15dp"
+            android:textColor="@color/green"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="bottom" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

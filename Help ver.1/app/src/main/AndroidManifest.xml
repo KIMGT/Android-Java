@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.help">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".menulist.recycle.post2"></activity>
+        <activity android:name=".menulist.post" />
+        <activity android:name=".menulist.addpost" />
+        <activity android:name=".menulist.graph.graph_next" /> <!-- 그래프 -->
+        <activity android:name=".menulist.recycle.recycle_tip" /> <!-- 팁버튼(분리수거) -->
+        <activity android:name=".menulist.recycle.recycle_tip2" /> <!-- 팁버튼(페기물) -->
+        <activity android:name=".menulist.plus.notice" /> <!-- 공지사항 버튼 -->
+        <activity android:name=".menulist.plus.version" /> <!-- 버전 버튼 -->
+        <activity android:name=".login.signup" /> <!-- 4. 추가 여기부터 -->
+        <activity
+            android:name=".login.LodingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- 여기까지 -->
+        <activity android:name=".login.login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
